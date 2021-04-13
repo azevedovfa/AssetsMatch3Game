@@ -16,7 +16,6 @@ public class BoardManager : MonoBehaviour
         instance = GetComponent<BoardManager>();
         Vector2 offset = tile.GetComponent<SpriteRenderer>().bounds.size;
         SetUp(offset.x, offset.y);
-
     }
 
     private void SetUp(float xOffset, float yOffset)

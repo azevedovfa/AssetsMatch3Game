@@ -91,7 +91,6 @@ public class TileBackground : MonoBehaviour
         return null;
     }
 
-
     private List<GameObject> GetAllAdjacentTiles() 
     {
         List<GameObject> adjacentTiles = new List<GameObject>();
@@ -101,7 +100,6 @@ public class TileBackground : MonoBehaviour
         }
         return adjacentTiles;
     }
-
     private List <GameObject> FindMatch(Vector2 castDir)
     {
         List<GameObject> matchingTiles = new List<GameObject>();
@@ -148,5 +146,5 @@ public class TileBackground : MonoBehaviour
             swapBack = true;
         }
 
-    }  
+    }
 }
